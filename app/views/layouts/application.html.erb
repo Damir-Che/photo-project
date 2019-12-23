@@ -10,8 +10,12 @@
   </head>
 
   <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <%= link_to 'Главная', root_path %>
     <%= link_to 'О нас', pages_about_path %>
+
     <%= yield %>
   </body>
 </html>
